@@ -25,7 +25,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   goToHome() {
     Future.delayed(
-        Duration(seconds: 4),
+        Duration(seconds: 3),
         () => Navigator.pushNamedAndRemoveUntil(
             context, HomeScreen.route_Name, (route) => false));
   }
